@@ -17,13 +17,13 @@ Note: You can have `Employee` and `Department` as a separate two interfaces as w
 
 Concrete Classes: `XMLEmployeeDao.java`, `XMLDepartmentDao.java`, `DBEmployeeDao.java`, and `DBDepartmentDao.java`. These concrete classes will implement `Dao` interface.
 
-![](AbstractFactoryDao.png)
+![](https://github.com/aakashverma1124/design-patterns-java/blob/master/src/creational/abstractfactory/AbstractFactoryDao.png)
 
 Now, `DaoAbstractFactory.java` will take the responsibility to return the object of either `XMLDaoFactory.java` or `DBDaoFactory.java`.
 
 And these two classes `XMLDaoFactory.java` and `DBDaoFactory.java` will return the requested object.
 
-![](FactoryProducer.png)
+![](https://github.com/aakashverma1124/design-patterns-java/blob/master/src/creational/abstractfactory/FactoryProducer.png)
 
 I hope you have understood the pattern and its usecases.
 
